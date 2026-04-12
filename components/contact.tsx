@@ -1,6 +1,20 @@
 import { ScrollReveal } from '@/components/scroll-reveal';
 
-export function Contact() {
+interface ContactProps {
+  email?: string;
+  instagram?: string;
+  instagramUrl?: string;
+  linkedin?: string;
+  linkedinUrl?: string;
+}
+
+export function Contact({
+  email = 'reuelagyapong123@gmail.com',
+  instagram = '@_.reuel',
+  instagramUrl = 'https://www.instagram.com/_.reuel?igsh=bTF0ZTJjN3RyaHZ1',
+  linkedin = 'Reuel Agyapong',
+  linkedinUrl = 'https://www.linkedin.com/in/reuel-agyapong-526043342?utm_source=share_via&utm_content=profile&utm_medium=member_ios',
+}: ContactProps) {
   return (
     <section
       id="contact"
@@ -28,28 +42,28 @@ export function Contact() {
             <div>
               <span className="label block mb-1.5">Email</span>
               <a
-                href="mailto:hello@reuelagyapong.com"
+                href={`mailto:${email}`}
                 className="text-[#1A1714] text-sm hover:text-[#8B5E3C] transition-colors duration-300"
               >
-                hello@reuelagyapong.com
+                {email}
               </a>
             </div>
             <div>
               <span className="label block mb-1.5">Instagram</span>
               <a
-                href="#"
+                href={instagramUrl}
                 className="text-[#1A1714] text-sm hover:text-[#8B5E3C] transition-colors duration-300"
               >
-                @reueldesigns
+                {instagram}
               </a>
             </div>
             <div>
               <span className="label block mb-1.5">LinkedIn</span>
               <a
-                href="#"
+                href={linkedinUrl}
                 className="text-[#1A1714] text-sm hover:text-[#8B5E3C] transition-colors duration-300"
               >
-                Reuel Agyapong
+                {linkedin}
               </a>
             </div>
           </div>

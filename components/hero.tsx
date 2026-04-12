@@ -1,23 +1,32 @@
-export function Hero() {
+interface HeroProps {
+  line1?: string;
+  line2?: string;
+  subtitle?: string;
+  description?: string;
+}
+
+export function Hero({
+  line1 = 'Crafting',
+  line2 = 'Spaces',
+  subtitle = 'Interior Design & Spatial Planning',
+  description = 'Designing spaces that balance beauty and function — where every material, proportion, and detail serves a purpose.',
+}: HeroProps) {
   return (
     <section className="md:min-h-dvh flex flex-col justify-start md:justify-center px-6 md:px-16 lg:px-24 pt-28 md:pt-18 pb-6 md:pb-0">
       <div className="max-w-350 w-full mx-auto">
         <h1 className="font-display text-[clamp(2.75rem,9vw,7.5rem)] leading-[0.92] text-[#1A1714] animate-fade-up">
-          Crafting
+          {line1}
         </h1>
         <h1 className="font-display-italic text-[clamp(2.75rem,9vw,7.5rem)] leading-[0.92] text-[#1A1714] animate-fade-up delay-200 mt-1">
-          Spaces
+          {line2}
         </h1>
 
         <div className="h-px bg-[#1A1714] mt-6 md:mt-10 mb-3 md:mb-5 w-16 md:w-25 animate-draw-line delay-500" />
 
-        <p className="label animate-fade-in delay-600">
-          Interior Design & Spatial Planning
-        </p>
+        <p className="label animate-fade-in delay-600">{subtitle}</p>
 
         <p className="mt-3 md:mt-5 max-w-105 text-[0.875rem] md:text-[0.9375rem] leading-[1.6] md:leading-[1.7] text-[#7A7168] animate-fade-in delay-700">
-          Designing spaces that balance beauty and function — where
-          every material, proportion, and detail serves a purpose.
+          {description}
         </p>
       </div>
 

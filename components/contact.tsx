@@ -2,24 +2,19 @@ import { ScrollReveal } from '@/components/scroll-reveal';
 
 interface ContactProps {
   email?: string;
-  instagram?: string;
-  instagramUrl?: string;
   linkedin?: string;
   linkedinUrl?: string;
 }
 
 export function Contact({
-  email = 'reuelagyapong123@gmail.com',
-  instagram = '@_.reuel',
-  instagramUrl = 'https://www.instagram.com/_.reuel?igsh=bTF0ZTJjN3RyaHZ1',
+  email = 'agyapong.24@osu.edu',
   linkedin = 'Reuel Agyapong',
   linkedinUrl = 'https://www.linkedin.com/in/reuel-agyapong-526043342?utm_source=share_via&utm_content=profile&utm_medium=member_ios',
 }: ContactProps) {
   return (
     <section
       id="contact"
-      className="px-6 md:px-16 lg:px-24 py-12 md:py-20 border-t border-[#E0D8CE]"
-    >
+      className="px-6 md:px-16 lg:px-24 py-12 md:py-20 border-t border-[#E0D8CE]">
       <div className="max-w-350 mx-auto">
         <ScrollReveal>
           <span className="label block mb-6">Get in Touch</span>
@@ -43,26 +38,15 @@ export function Contact({
               <span className="label block mb-1.5">Email</span>
               <a
                 href={`mailto:${email}`}
-                className="text-[#1A1714] text-sm hover:text-[#8B5E3C] transition-colors duration-300"
-              >
+                className="text-[#1A1714] text-sm hover:text-[#8B5E3C] transition-colors duration-300">
                 {email}
-              </a>
-            </div>
-            <div>
-              <span className="label block mb-1.5">Instagram</span>
-              <a
-                href={instagramUrl}
-                className="text-[#1A1714] text-sm hover:text-[#8B5E3C] transition-colors duration-300"
-              >
-                {instagram}
               </a>
             </div>
             <div>
               <span className="label block mb-1.5">LinkedIn</span>
               <a
                 href={linkedinUrl}
-                className="text-[#1A1714] text-sm hover:text-[#8B5E3C] transition-colors duration-300"
-              >
+                className="text-[#1A1714] text-sm hover:text-[#8B5E3C] transition-colors duration-300">
                 {linkedin}
               </a>
             </div>

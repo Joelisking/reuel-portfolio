@@ -1,7 +1,6 @@
 import { Navigation } from '@/components/navigation';
 import { LightboxProvider } from '@/components/lightbox';
 import { Hero } from '@/components/hero';
-import { FeaturedImage } from '@/components/featured-image';
 import { SelectedWorks } from '@/components/selected-works';
 import { About } from '@/components/about';
 import { AreasOfInterest } from '@/components/areas-of-interest';
@@ -31,14 +30,11 @@ export default async function Home() {
         subtitle={settings?.heroSubtitle}
         description={settings?.heroDescription}
       />
-      <FeaturedImage image={settings?.featuredImage} />
-      <SelectedWorks projects={projects} />
       <About data={about} />
+      <SelectedWorks projects={projects} />
       <AreasOfInterest items={areas} />
       <Contact
         email={settings?.email}
-        instagram={settings?.instagram}
-        instagramUrl={settings?.instagramUrl}
         linkedin={settings?.linkedin}
         linkedinUrl={settings?.linkedinUrl}
       />

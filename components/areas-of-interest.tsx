@@ -4,10 +4,10 @@ import { LightboxTrigger } from '@/components/lightbox';
 import { urlFor } from '@/sanity/client';
 
 const fallbackItems = [
-  { _id: '1', label: 'Color Theory', image: null, localSrc: '/assets/IMG_1870.JPG' },
-  { _id: '2', label: 'Floor Planning', image: null, localSrc: '/assets/first-floor-plan.jpg' },
-  { _id: '3', label: '3D Modeling', image: null, localSrc: '/assets/office room 11.jpg' },
-  { _id: '4', label: 'Model Making', image: null, localSrc: '/assets/3D.JPG' },
+  { _id: '1', label: 'Interior Design', image: null, localSrc: '/assets/living-room-design.jpg' },
+  { _id: '2', label: 'Photography', image: null, localSrc: '/assets/IMG_5195.JPG' },
+  { _id: '3', label: '2D Design & Fine Art', image: null, localSrc: '/assets/51147797-3237-476C-9A50-D4C19FEF3398.jpg' },
+  { _id: '4', label: 'Architectural Drawing', image: null, localSrc: '/assets/second-floor-plan.jpg' },
 ];
 
 interface AreaItem {

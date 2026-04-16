@@ -30,9 +30,9 @@ export default async function Home() {
         subtitle={settings?.heroSubtitle}
         description={settings?.heroDescription}
       />
-      <About data={about} />
       <SelectedWorks projects={projects} />
       <AreasOfInterest items={areas} />
+      <About data={about} />
       <Contact
         email={settings?.email}
         linkedin={settings?.linkedin}

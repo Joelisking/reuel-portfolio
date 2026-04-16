@@ -17,15 +17,7 @@ export function Contact({
       className="px-6 md:px-16 lg:px-24 py-12 md:py-20 border-t border-[#E0D8CE]">
       <div className="max-w-350 mx-auto">
         <ScrollReveal>
-          <span className="label block mb-6">Get in Touch</span>
-        </ScrollReveal>
-
-        <ScrollReveal delay={80}>
-          <h2 className="font-display text-[clamp(2.5rem,6vw,5rem)] leading-[0.95] text-[#1A1714] max-w-150">
-            Let&apos;s work
-            <br />
-            <span className="font-display-italic">together</span>
-          </h2>
+          <span className="label block mb-6">Contact</span>
         </ScrollReveal>
 
         <ScrollReveal delay={160}>

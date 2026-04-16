@@ -29,8 +29,7 @@ export function About({ data }: AboutProps) {
   return (
     <section
       id="about"
-      className="px-6 md:px-16 lg:px-24 py-12 md:py-20 bg-[#1A1714]"
-    >
+      className="px-6 md:px-16 lg:px-24 py-12 md:py-20 bg-[#1A1714]">
       <div className="max-w-350 mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-12 gap-8 md:gap-14 items-start">
           <ScrollReveal className="md:col-span-5">
@@ -69,21 +68,27 @@ export function About({ data }: AboutProps) {
 
             <div className="mt-8 flex flex-wrap gap-x-10 gap-y-4">
               <div>
-                <span className="label text-[#7A7168] block mb-1">Focus</span>
+                <span className="label text-[#7A7168] block mb-1">
+                  Focus
+                </span>
                 <span className="text-[#F5F0EA] text-sm">
                   {data?.focus || 'Interior Design'}
                 </span>
               </div>
               <div>
-                <span className="label text-[#7A7168] block mb-1">Skills</span>
+                <span className="label text-[#7A7168] block mb-1">
+                  Skills
+                </span>
                 <span className="text-[#F5F0EA] text-sm">
                   {data?.skills || '3D Visualization, Space Planning'}
                 </span>
               </div>
               <div>
-                <span className="label text-[#7A7168] block mb-1">Education</span>
+                <span className="label text-[#7A7168] block mb-1">
+                  Education
+                </span>
                 <span className="text-[#F5F0EA] text-sm">
-                  {data?.education || 'Polytech — CM 124'}
+                  {data?.education || 'The Ohio State University'}
                 </span>
               </div>
             </div>

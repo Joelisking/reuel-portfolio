@@ -37,8 +37,18 @@ const sections: Section[] = [
       {
         type: 'images',
         images: [
-          { src: '/assets/p1-1.JPG', alt: 'Reference chair — tan upholstered', aspect: 'aspect-square', colSpan: 'md:col-span-6' },
-          { src: '/assets/p1-2.jpg', alt: 'Reference chair — slipper', aspect: 'aspect-square', colSpan: 'md:col-span-6' },
+          {
+            src: '/assets/p1-1.JPG',
+            alt: 'Reference chair — tan upholstered',
+            aspect: 'aspect-square',
+            colSpan: 'md:col-span-6',
+          },
+          {
+            src: '/assets/p1-2.jpg',
+            alt: 'Reference chair — slipper',
+            aspect: 'aspect-square',
+            colSpan: 'md:col-span-6',
+          },
         ],
       },
       {
@@ -49,9 +59,24 @@ const sections: Section[] = [
       {
         type: 'images',
         images: [
-          { src: '/assets/p2-2.jpeg', alt: 'Chair sketch', aspect: 'aspect-[3/4]', colSpan: 'md:col-span-5' },
-          { src: '/assets/p2-3.jpeg', alt: 'Chair sketch development', aspect: 'aspect-[3/4]', colSpan: 'md:col-span-4' },
-          { src: '/assets/p2-4.jpeg', alt: 'Chair design development', aspect: 'aspect-[3/4]', colSpan: 'md:col-span-3' },
+          {
+            src: '/assets/p2-2.jpeg',
+            alt: 'Chair sketch',
+            aspect: 'aspect-[3/4]',
+            colSpan: 'md:col-span-5',
+          },
+          {
+            src: '/assets/p2-3.jpeg',
+            alt: 'Chair sketch development',
+            aspect: 'aspect-[3/4]',
+            colSpan: 'md:col-span-4',
+          },
+          {
+            src: '/assets/p2-4.jpeg',
+            alt: 'Chair design development',
+            aspect: 'aspect-[3/4]',
+            colSpan: 'md:col-span-3',
+          },
         ],
       },
       {
@@ -62,9 +87,24 @@ const sections: Section[] = [
       {
         type: 'images',
         images: [
-          { src: '/assets/p3-1.PNG', alt: 'White cardboard prototype', aspect: 'aspect-[2/3]', colSpan: 'md:col-span-4' },
-          { src: '/assets/p3-2.PNG', alt: 'Cardboard template model', aspect: 'aspect-[2/3]', colSpan: 'md:col-span-4' },
-          { src: '/assets/p3-4.png', alt: 'Black leather components laid flat', aspect: 'aspect-[2/3]', colSpan: 'md:col-span-4' },
+          {
+            src: '/assets/p3-1.PNG',
+            alt: 'White cardboard prototype',
+            aspect: 'aspect-[2/3]',
+            colSpan: 'md:col-span-4',
+          },
+          {
+            src: '/assets/p3-2.PNG',
+            alt: 'Cardboard template model',
+            aspect: 'aspect-[2/3]',
+            colSpan: 'md:col-span-4',
+          },
+          {
+            src: '/assets/p3-4.png',
+            alt: 'Black leather components laid flat',
+            aspect: 'aspect-[2/3]',
+            colSpan: 'md:col-span-4',
+          },
         ],
       },
       {
@@ -75,9 +115,25 @@ const sections: Section[] = [
       {
         type: 'images',
         images: [
-          { src: '/assets/p4-1.jpeg', alt: 'Faux leather and cushion materials', caption: 'Faux leather and cotton polyester cushion', aspect: 'aspect-[4/3]', colSpan: 'md:col-span-5' },
-          { src: '/assets/p4-5.PNG', alt: 'Final chair — angled view', aspect: 'aspect-[2/3]', colSpan: 'md:col-span-4' },
-          { src: '/assets/p4-6.png', alt: 'Final chair — front view', aspect: 'aspect-[2/3]', colSpan: 'md:col-span-3' },
+          {
+            src: '/assets/p4-1.jpeg',
+            alt: 'Faux leather and cushion materials',
+            caption: 'Faux leather and cotton polyester cushion',
+            aspect: 'aspect-[4/3]',
+            colSpan: 'md:col-span-5',
+          },
+          {
+            src: '/assets/p4-5.PNG',
+            alt: 'Final chair — angled view',
+            aspect: 'aspect-[2/3]',
+            colSpan: 'md:col-span-4',
+          },
+          {
+            src: '/assets/p4-6.png',
+            alt: 'Final chair — front view',
+            aspect: 'aspect-[2/3]',
+            colSpan: 'md:col-span-3',
+          },
         ],
       },
     ],
@@ -93,26 +149,76 @@ const sections: Section[] = [
       {
         type: 'images',
         images: [
-          { src: '/assets/3D 1.JPG',        alt: 'Full set — stacked',           aspect: 'aspect-[4/3]',  colSpan: 'md:col-span-5' },
-          { src: '/assets/3D.JPG',           alt: 'Full set — front view',        aspect: 'aspect-[4/3]',  colSpan: 'md:col-span-4' },
-          { src: '/assets/Weight board.JPG', alt: 'Red books leaning',            aspect: 'aspect-[4/3]',  colSpan: 'md:col-span-3' },
+          {
+            src: '/assets/3D 1.JPG',
+            alt: 'Full set — stacked',
+            aspect: 'aspect-[4/3]',
+            colSpan: 'md:col-span-5',
+          },
+          {
+            src: '/assets/3D.JPG',
+            alt: 'Full set — front view',
+            aspect: 'aspect-[4/3]',
+            colSpan: 'md:col-span-4',
+          },
+          {
+            src: '/assets/Weight board.JPG',
+            alt: 'Red books leaning',
+            aspect: 'aspect-[4/3]',
+            colSpan: 'md:col-span-3',
+          },
         ],
       },
       {
         type: 'images',
         images: [
-          { src: '/assets/Box.JPG',          alt: 'Red box — lid removed',        aspect: 'aspect-[4/3]',  colSpan: 'md:col-span-3' },
-          { src: '/assets/Bookk.JPG',        alt: 'Red box — lid open',           aspect: 'aspect-[4/3]',  colSpan: 'md:col-span-3' },
-          { src: '/assets/Box 1.JPG',        alt: 'Blue box — closed',            aspect: 'aspect-[4/3]',  colSpan: 'md:col-span-3' },
-          { src: '/assets/Box 1 opened.JPG', alt: 'Blue box — open',              aspect: 'aspect-[4/3]',  colSpan: 'md:col-span-3' },
+          {
+            src: '/assets/Box.JPG',
+            alt: 'Red box — lid removed',
+            aspect: 'aspect-[4/3]',
+            colSpan: 'md:col-span-3',
+          },
+          {
+            src: '/assets/Bookk.JPG',
+            alt: 'Red box — lid open',
+            aspect: 'aspect-[4/3]',
+            colSpan: 'md:col-span-3',
+          },
+          {
+            src: '/assets/Box 1.JPG',
+            alt: 'Blue box — closed',
+            aspect: 'aspect-[4/3]',
+            colSpan: 'md:col-span-3',
+          },
+          {
+            src: '/assets/Box 1 opened.JPG',
+            alt: 'Blue box — open',
+            aspect: 'aspect-[4/3]',
+            colSpan: 'md:col-span-3',
+          },
         ],
       },
       {
         type: 'images',
         images: [
-          { src: '/assets/A book.JPG',       alt: 'Red book — flat with binding', aspect: 'aspect-[16/9]', colSpan: 'md:col-span-5' },
-          { src: '/assets/Opened book.JPG',  alt: 'Red book — standing open',     aspect: 'aspect-[2/3]',  colSpan: 'md:col-span-3' },
-          { src: '/assets/A B book.JPG',     alt: 'A-B book — cover detail',      aspect: 'aspect-square', colSpan: 'md:col-span-4' },
+          {
+            src: '/assets/A book.JPG',
+            alt: 'Red book — flat with binding',
+            aspect: 'aspect-[16/9]',
+            colSpan: 'md:col-span-5',
+          },
+          {
+            src: '/assets/Opened book.JPG',
+            alt: 'Red book — standing open',
+            aspect: 'aspect-[2/3]',
+            colSpan: 'md:col-span-3',
+          },
+          {
+            src: '/assets/A B book.JPG',
+            alt: 'A-B book — cover detail',
+            aspect: 'aspect-square',
+            colSpan: 'md:col-span-4',
+          },
         ],
       },
     ],
@@ -128,8 +234,20 @@ const sections: Section[] = [
       {
         type: 'images',
         images: [
-          { src: '/assets/IMG_1875 (1).JPG', alt: 'Illusion of Transparency', caption: 'Illusion of Transparency', aspect: 'aspect-[3/4]', colSpan: 'md:col-span-6' },
-          { src: '/assets/IMG_1870.JPG', alt: '8 Color Unity Combinations', caption: '8 Color Unity Combinations', aspect: 'aspect-[3/4]', colSpan: 'md:col-span-6' },
+          {
+            src: '/assets/IMG_1875 (1).JPG',
+            alt: 'Illusion of Transparency',
+            caption: 'Illusion of Transparency',
+            aspect: 'aspect-[3/4]',
+            colSpan: 'md:col-span-6',
+          },
+          {
+            src: '/assets/IMG_1870.JPG',
+            alt: '8 Color Unity Combinations',
+            caption: '8 Color Unity Combinations',
+            aspect: 'aspect-[3/4]',
+            colSpan: 'md:col-span-6',
+          },
         ],
       },
     ],
@@ -144,28 +262,32 @@ const sections: Section[] = [
           {
             src: '/assets/IMG_8906.jpeg',
             alt: 'Black and white composition',
-            caption: 'This piece explores shape and composition using black and white contrast. The design focuses on balance, movement, and the arrangement of positive and negative space.',
+            caption:
+              'This piece explores shape and composition using black and white contrast. The design focuses on balance, movement, and the arrangement of positive and negative space.',
             aspect: 'aspect-[3/4]',
             colSpan: 'md:col-span-3',
           },
           {
             src: '/assets/IMG_8899.jpeg',
             alt: 'Line work composition',
-            caption: 'This stage translates the composition into line work. The lines define structure and guide the overall flow of the design.',
+            caption:
+              'This stage translates the composition into line work. The lines define structure and guide the overall flow of the design.',
             aspect: 'aspect-[3/4]',
             colSpan: 'md:col-span-3',
           },
           {
             src: '/assets/IMG_8909.jpeg',
             alt: 'Shaded composition',
-            caption: 'Shading was added to introduce depth and contrast. This step helps create a sense of form and spatial variation.',
+            caption:
+              'Shading was added to introduce depth and contrast. This step helps create a sense of form and spatial variation.',
             aspect: 'aspect-[3/4]',
             colSpan: 'md:col-span-3',
           },
           {
             src: '/assets/IMG_1965.JPG',
             alt: 'Color composition',
-            caption: 'The final design applies color to enhance depth and visual interest. Color relationships were used to create contrast, harmony, and a sense of movement.',
+            caption:
+              'The final design applies color to enhance depth and visual interest. Color relationships were used to create contrast, harmony, and a sense of movement.',
             aspect: 'aspect-[3/4]',
             colSpan: 'md:col-span-3',
           },
@@ -184,9 +306,24 @@ const sections: Section[] = [
       {
         type: 'images',
         images: [
-          { src: '/assets/IMG_0351.jpeg', alt: 'Initial sketch', aspect: 'aspect-[3/4]', colSpan: 'md:col-span-4' },
-          { src: '/assets/IMG_0466.jpeg', alt: 'In-progress coloured painting', aspect: 'aspect-[4/3]', colSpan: 'md:col-span-4' },
-          { src: '/assets/51147797-3237-476C-9A50-D4C19FEF3398.jpg', alt: 'Final abstract composition', aspect: 'aspect-[3/4]', colSpan: 'md:col-span-4' },
+          {
+            src: '/assets/IMG_0351.jpeg',
+            alt: 'Initial sketch',
+            aspect: 'aspect-[3/4]',
+            colSpan: 'md:col-span-4',
+          },
+          {
+            src: '/assets/IMG_0466.jpeg',
+            alt: 'In-progress coloured painting',
+            aspect: 'aspect-[4/3]',
+            colSpan: 'md:col-span-4',
+          },
+          {
+            src: '/assets/51147797-3237-476C-9A50-D4C19FEF3398.jpg',
+            alt: 'Final abstract composition',
+            aspect: 'aspect-[3/4]',
+            colSpan: 'md:col-span-4',
+          },
         ],
       },
     ],
@@ -198,8 +335,20 @@ const sections: Section[] = [
       {
         type: 'images',
         images: [
-          { src: '/assets/IMG_1989 3.JPG', alt: '20 Artists', caption: '20 Artists', aspect: 'aspect-[3/4]', colSpan: 'md:col-span-5' },
-          { src: '/assets/Jabberwocky.jpeg', alt: 'Jabberwocky', caption: 'Jabberwocky', aspect: 'aspect-[3/4]', colSpan: 'md:col-span-7' },
+          {
+            src: '/assets/IMG_1989 3.JPG',
+            alt: '20 Artists',
+            caption: '20 Artists',
+            aspect: 'aspect-[3/4]',
+            colSpan: 'md:col-span-5',
+          },
+          {
+            src: '/assets/Jabberwocky.jpeg',
+            alt: 'Jabberwocky',
+            caption: 'Jabberwocky',
+            aspect: 'aspect-[3/4]',
+            colSpan: 'md:col-span-7',
+          },
         ],
       },
     ],
@@ -215,16 +364,31 @@ const sections: Section[] = [
       {
         type: 'images',
         images: [
-          { src: '/assets/IMG_5195.JPG', alt: 'Portrait study I', aspect: 'aspect-[2/3]', colSpan: 'md:col-span-4' },
-          { src: '/assets/IMG_5197.JPG', alt: 'Portrait study II', aspect: 'aspect-[2/3]', colSpan: 'md:col-span-4' },
-          { src: '/assets/IMG_5198.JPG', alt: 'Portrait study III', aspect: 'aspect-[2/3]', colSpan: 'md:col-span-4' },
+          {
+            src: '/assets/IMG_5195.JPG',
+            alt: 'Portrait study I',
+            aspect: 'aspect-[2/3]',
+            colSpan: 'md:col-span-4',
+          },
+          {
+            src: '/assets/IMG_5197.JPG',
+            alt: 'Portrait study II',
+            aspect: 'aspect-[2/3]',
+            colSpan: 'md:col-span-4',
+          },
+          {
+            src: '/assets/IMG_5198.JPG',
+            alt: 'Portrait study III',
+            aspect: 'aspect-[2/3]',
+            colSpan: 'md:col-span-4',
+          },
         ],
       },
     ],
   },
   {
     id: 'conceptual-photography',
-    title: 'Conceptual Photography',
+    title: 'Conceptual Photography Series',
     blocks: [
       {
         type: 'text',
@@ -233,15 +397,25 @@ const sections: Section[] = [
       {
         type: 'images',
         images: [
-          { src: '/assets/IMG_0448.jpg', alt: 'Conceptual photography I', aspect: 'aspect-[2/3]', colSpan: 'md:col-span-6' },
-          { src: '/assets/IMG_0463.jpg', alt: 'Conceptual photography II', aspect: 'aspect-[2/3]', colSpan: 'md:col-span-6' },
+          {
+            src: '/assets/IMG_0448.jpg',
+            alt: 'Conceptual photography I',
+            aspect: 'aspect-[2/3]',
+            colSpan: 'md:col-span-6',
+          },
+          {
+            src: '/assets/IMG_0463.jpg',
+            alt: 'Conceptual photography II',
+            aspect: 'aspect-[2/3]',
+            colSpan: 'md:col-span-6',
+          },
         ],
       },
     ],
   },
   {
     id: 'self-portrait',
-    title: 'Self Portrait',
+    title: 'Self Portrait Study',
     blocks: [
       {
         type: 'text',
@@ -250,15 +424,25 @@ const sections: Section[] = [
       {
         type: 'images',
         images: [
-          { src: '/assets/self-portrait1.jpg', alt: 'Self portrait I',  aspect: 'aspect-[2/3]', colSpan: 'md:col-span-6' },
-          { src: '/assets/self-portrait2.jpg', alt: 'Self portrait II', aspect: 'aspect-[2/3]', colSpan: 'md:col-span-6' },
+          {
+            src: '/assets/self-portrait1.jpg',
+            alt: 'Self portrait I',
+            aspect: 'aspect-[2/3]',
+            colSpan: 'md:col-span-6',
+          },
+          {
+            src: '/assets/self-portrait2.jpg',
+            alt: 'Self portrait II',
+            aspect: 'aspect-[2/3]',
+            colSpan: 'md:col-span-6',
+          },
         ],
       },
     ],
   },
   {
     id: 'moodboards',
-    title: 'Moodboards',
+    title: 'Moodboard Exploration',
     blocks: [
       {
         type: 'text',
@@ -267,8 +451,18 @@ const sections: Section[] = [
       {
         type: 'images',
         images: [
-          { src: '/assets/moodboard 1 bedroom.jpg', alt: 'Bedroom moodboard', aspect: 'aspect-[4/3]', colSpan: 'md:col-span-7' },
-          { src: '/assets/living-room-design.jpg', alt: 'Living room design', aspect: 'aspect-[4/3]', colSpan: 'md:col-span-5' },
+          {
+            src: '/assets/moodboard 1 bedroom.jpg',
+            alt: 'Bedroom moodboard',
+            aspect: 'aspect-[4/3]',
+            colSpan: 'md:col-span-7',
+          },
+          {
+            src: '/assets/living-room-design.jpg',
+            alt: 'Living room design',
+            aspect: 'aspect-[4/3]',
+            colSpan: 'md:col-span-5',
+          },
         ],
       },
     ],
@@ -280,8 +474,20 @@ const sections: Section[] = [
       {
         type: 'images',
         images: [
-          { src: '/assets/first-floor-plan.jpg', alt: '1st Floor Plan', caption: '1st Floor Plan', aspect: 'aspect-[3/4]', colSpan: 'md:col-span-6' },
-          { src: '/assets/basement-plan.jpg', alt: 'Basement Plan', caption: 'Basement Plan', aspect: 'aspect-[3/4]', colSpan: 'md:col-span-6' },
+          {
+            src: '/assets/first-floor-plan.jpg',
+            alt: '1st Floor Plan',
+            caption: '1st Floor Plan',
+            aspect: 'aspect-[3/4]',
+            colSpan: 'md:col-span-6',
+          },
+          {
+            src: '/assets/basement-plan.jpg',
+            alt: 'Basement Plan',
+            caption: 'Basement Plan',
+            aspect: 'aspect-[3/4]',
+            colSpan: 'md:col-span-6',
+          },
         ],
       },
     ],
@@ -293,7 +499,12 @@ const sections: Section[] = [
       {
         type: 'images',
         images: [
-          { src: '/assets/building-section.jpg', alt: 'Building Section', aspect: 'aspect-[16/9]', colSpan: 'md:col-span-12' },
+          {
+            src: '/assets/building-section.jpg',
+            alt: 'Building Section',
+            aspect: 'aspect-[16/9]',
+            colSpan: 'md:col-span-12',
+          },
         ],
       },
     ],
@@ -305,8 +516,18 @@ const sections: Section[] = [
       {
         type: 'images',
         images: [
-          { src: '/assets/exterior-elevation-1.jpg', alt: 'Exterior Elevation I', aspect: 'aspect-[4/3]', colSpan: 'md:col-span-6' },
-          { src: '/assets/exterior-elevation-2.jpg', alt: 'Exterior Elevation II', aspect: 'aspect-[4/3]', colSpan: 'md:col-span-6' },
+          {
+            src: '/assets/exterior-elevation-1.jpg',
+            alt: 'Exterior Elevation I',
+            aspect: 'aspect-[4/3]',
+            colSpan: 'md:col-span-6',
+          },
+          {
+            src: '/assets/exterior-elevation-2.jpg',
+            alt: 'Exterior Elevation II',
+            aspect: 'aspect-[4/3]',
+            colSpan: 'md:col-span-6',
+          },
         ],
       },
     ],
@@ -318,8 +539,20 @@ const sections: Section[] = [
       {
         type: 'images',
         images: [
-          { src: '/assets/garage.png', alt: '1st floor plan with furniture', caption: '1st Floor Plan', aspect: 'aspect-[4/3]', colSpan: 'md:col-span-7' },
-          { src: '/assets/second-floor-plan.jpg', alt: '2nd floor plan with furniture', caption: '2nd Floor Plan', aspect: 'aspect-[3/4]', colSpan: 'md:col-span-5' },
+          {
+            src: '/assets/garage.png',
+            alt: '1st floor plan with furniture',
+            caption: '1st Floor Plan',
+            aspect: 'aspect-[4/3]',
+            colSpan: 'md:col-span-7',
+          },
+          {
+            src: '/assets/second-floor-plan.jpg',
+            alt: '2nd floor plan with furniture',
+            caption: '2nd Floor Plan',
+            aspect: 'aspect-[3/4]',
+            colSpan: 'md:col-span-5',
+          },
         ],
       },
     ],
@@ -331,7 +564,12 @@ const sections: Section[] = [
       {
         type: 'images',
         images: [
-          { src: '/assets/interior-elevation.jpg', alt: 'Washroom Elevation', aspect: 'aspect-[16/9]', colSpan: 'md:col-span-12' },
+          {
+            src: '/assets/interior-elevation.jpg',
+            alt: 'Washroom Elevation',
+            aspect: 'aspect-[16/9]',
+            colSpan: 'md:col-span-12',
+          },
         ],
       },
     ],
@@ -343,10 +581,30 @@ const sections: Section[] = [
       {
         type: 'images',
         images: [
-          { src: '/assets/office room 14.jpg', alt: 'Fashion Nova — conference room', aspect: 'aspect-[16/9]', colSpan: 'md:col-span-7' },
-          { src: '/assets/office room 11.jpg', alt: 'Fashion Nova — private office', aspect: 'aspect-[4/3]', colSpan: 'md:col-span-5' },
-          { src: '/assets/office room 12.jpg', alt: 'Fashion Nova — alternate view', aspect: 'aspect-[16/9]', colSpan: 'md:col-span-5' },
-          { src: '/assets/office room 15.jpg', alt: 'Fashion Nova — glass pod', aspect: 'aspect-[16/9]', colSpan: 'md:col-span-7' },
+          {
+            src: '/assets/office room 14.jpg',
+            alt: 'Fashion Nova — conference room',
+            aspect: 'aspect-[16/9]',
+            colSpan: 'md:col-span-7',
+          },
+          {
+            src: '/assets/office room 11.jpg',
+            alt: 'Fashion Nova — private office',
+            aspect: 'aspect-[4/3]',
+            colSpan: 'md:col-span-5',
+          },
+          {
+            src: '/assets/office room 12.jpg',
+            alt: 'Fashion Nova — alternate view',
+            aspect: 'aspect-[16/9]',
+            colSpan: 'md:col-span-5',
+          },
+          {
+            src: '/assets/office room 15.jpg',
+            alt: 'Fashion Nova — glass pod',
+            aspect: 'aspect-[16/9]',
+            colSpan: 'md:col-span-7',
+          },
         ],
       },
     ],
@@ -361,8 +619,7 @@ export function SelectedWorks(_: SelectedWorksProps) {
   return (
     <section
       id="work"
-      className="px-6 md:px-16 lg:px-24 pt-10 md:pt-16 pb-12 md:pb-20"
-    >
+      className="px-6 md:px-16 lg:px-24 pt-10 md:pt-16 pb-12 md:pb-20">
       <div className="max-w-350 mx-auto">
         {/* Main heading */}
         <ScrollReveal>
@@ -377,7 +634,10 @@ export function SelectedWorks(_: SelectedWorksProps) {
 
         {/* Project sections */}
         {sections.map((section) => (
-          <div key={section.id} id={section.id} className="mb-16 md:mb-28">
+          <div
+            key={section.id}
+            id={section.id}
+            className="mb-16 md:mb-28">
             {/* Section title */}
             <ScrollReveal>
               <div className="mb-6 md:mb-8">
@@ -411,23 +671,20 @@ export function SelectedWorks(_: SelectedWorksProps) {
                 return (
                   <div
                     key={blockIndex}
-                    className="grid grid-cols-1 md:grid-cols-12 gap-5 mb-5"
-                  >
+                    className="grid grid-cols-1 md:grid-cols-12 gap-5 mb-5">
                     {block.images.map((img, imgIndex) => (
                       <ScrollReveal
                         key={imgIndex}
                         className={img.colSpan}
-                        delay={imgIndex * 80}
-                      >
+                        delay={imgIndex * 80}>
                         <LightboxTrigger src={img.src} alt={img.alt}>
                           <div
-                            className={`img-hover-container ${img.aspect} relative bg-[#EDE8E1] overflow-hidden`}
-                          >
+                            className={`img-hover-container ${img.aspect} relative bg-[#EDE8E1] overflow-hidden`}>
                             <Image
                               src={img.src}
                               alt={img.alt}
                               fill
-                              className="object-cover"
+                              className="object-contain"
                               sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 600px"
                             />
                           </div>

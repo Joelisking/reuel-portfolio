@@ -4,9 +4,9 @@ import { urlFor } from '@/sanity/client';
 import { PortableText } from 'next-sanity';
 
 const fallbackBio = [
-  'Reuel Agyapong is an interior designer and spatial planner with a multidisciplinary approach that spans residential and commercial interiors, architectural visualization, and fine art.',
-  'With a foundation in Digital Graphics for the Built Environment, Reuel brings technical precision to every project — from detailed floor plans and elevations to fully rendered 3D visualizations that communicate a space before it exists.',
-  'Her work draws on a deep understanding of color theory, material relationships, and spatial proportion. Each project begins with careful research — moodboards, material studies, and client dialogue — and culminates in spaces that feel both considered and alive.',
+  'Reuel Agyapong is an aspiring interior designer with a focus on spatial design, furniture, and material exploration. Her work combines creative thinking with hands-on making, exploring how form, structure, and materials come together in design.',
+  'With a foundation in design principles, Reuel develops ideas through sketching, modeling, and iterative processes. Her projects demonstrate an understanding of proportion, balance, and the relationship between solid form and open space.',
+  'Through studies in color, composition, and three-dimensional design, her work reflects a growing ability to create thoughtful and visually engaging designs.',
 ];
 
 interface AboutProps {
@@ -72,7 +72,8 @@ export function About({ data }: AboutProps) {
                   Focus
                 </span>
                 <span className="text-[#F5F0EA] text-sm">
-                  {data?.focus || 'Interior Design'}
+                  {data?.focus ||
+                    'Interior Design & Spatial Planning'}
                 </span>
               </div>
               <div>
@@ -80,7 +81,8 @@ export function About({ data }: AboutProps) {
                   Skills
                 </span>
                 <span className="text-[#F5F0EA] text-sm">
-                  {data?.skills || '3D Visualization, Space Planning'}
+                  {data?.skills ||
+                    '3D Visualization, Space Planning, Sketching, Model Making'}
                 </span>
               </div>
               <div>
@@ -88,7 +90,8 @@ export function About({ data }: AboutProps) {
                   Education
                 </span>
                 <span className="text-[#F5F0EA] text-sm">
-                  {data?.education || 'The Ohio State University'}
+                  {data?.education ||
+                    'The Ohio State University (Incoming)'}
                 </span>
               </div>
             </div>

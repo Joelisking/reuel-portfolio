@@ -41,13 +41,25 @@ const sections: Section[] = [
             src: '/assets/p1-1.JPG',
             alt: 'Reference chair — tan upholstered',
             aspect: 'aspect-square',
-            colSpan: 'md:col-span-6',
+            colSpan: 'md:col-span-3',
           },
           {
             src: '/assets/p1-2.jpg',
             alt: 'Reference chair — slipper',
             aspect: 'aspect-square',
-            colSpan: 'md:col-span-6',
+            colSpan: 'md:col-span-3',
+          },
+          {
+            src: '/assets/IMG_2248.JPG',
+            alt: 'Reference chair — beige upholstered',
+            aspect: 'aspect-square',
+            colSpan: 'md:col-span-3',
+          },
+          {
+            src: '/assets/IMG_4255.jpg',
+            alt: 'Reference chair — black banquet',
+            aspect: 'aspect-square',
+            colSpan: 'md:col-span-3',
           },
         ],
       },
@@ -60,10 +72,17 @@ const sections: Section[] = [
         type: 'images',
         images: [
           {
+            src: '/assets/chair-sketches.png',
+            alt: 'Chair sketches — early explorations',
+            aspect: 'aspect-[3/4]',
+            colSpan: 'md:col-span-4',
+          },
+          {
             src: '/assets/p2-2.jpeg',
             alt: 'Chair sketch',
+            caption: 'Crafting Spaces\nInterior Design & Spatial Planning\nDesigning spaces that balance beauty and function—where every material, proportion, and detail is intentionally considered.',
             aspect: 'aspect-[3/4]',
-            colSpan: 'md:col-span-5',
+            colSpan: 'md:col-span-4',
           },
           {
             src: '/assets/p2-3.jpeg',
@@ -75,7 +94,7 @@ const sections: Section[] = [
             src: '/assets/p2-4.jpeg',
             alt: 'Chair design development',
             aspect: 'aspect-[3/4]',
-            colSpan: 'md:col-span-3',
+            colSpan: 'md:col-span-4',
           },
         ],
       },
@@ -91,19 +110,37 @@ const sections: Section[] = [
             src: '/assets/p3-1.PNG',
             alt: 'White cardboard prototype',
             aspect: 'aspect-[2/3]',
-            colSpan: 'md:col-span-4',
+            colSpan: 'md:col-span-2',
           },
           {
             src: '/assets/p3-2.PNG',
             alt: 'Cardboard template model',
             aspect: 'aspect-[2/3]',
-            colSpan: 'md:col-span-4',
+            colSpan: 'md:col-span-2',
+          },
+          {
+            src: '/assets/IMG_4865.jpeg',
+            alt: 'Cardboard template pieces laid flat',
+            aspect: 'aspect-[2/3]',
+            colSpan: 'md:col-span-2',
           },
           {
             src: '/assets/p3-4.png',
             alt: 'Black leather components laid flat',
             aspect: 'aspect-[2/3]',
-            colSpan: 'md:col-span-4',
+            colSpan: 'md:col-span-2',
+          },
+          {
+            src: '/assets/IMG_4936.jpeg',
+            alt: 'Hand sewing fabric cushion',
+            aspect: 'aspect-[2/3]',
+            colSpan: 'md:col-span-2',
+          },
+          {
+            src: '/assets/IMG_4940.jpeg',
+            alt: 'Cushion sample with stuffing',
+            aspect: 'aspect-[2/3]',
+            colSpan: 'md:col-span-2',
           },
         ],
       },
@@ -333,6 +370,10 @@ const sections: Section[] = [
     title: '2D Designs',
     blocks: [
       {
+        type: 'text',
+        body: 'This project explores a range of artistic styles through the study of 20 different artists. Each piece interprets a distinct visual language, focusing on color, composition, and technique to understand how different approaches influence design.',
+      },
+      {
         type: 'images',
         images: [
           {
@@ -345,7 +386,7 @@ const sections: Section[] = [
           {
             src: '/assets/Jabberwocky.jpeg',
             alt: 'Jabberwocky',
-            caption: 'Jabberwocky',
+            caption: 'This illustration interprets Jabberwocky through the combination of text and imagery, exploring storytelling, composition, and color.',
             aspect: 'aspect-[3/4]',
             colSpan: 'md:col-span-7',
           },
@@ -455,13 +496,25 @@ const sections: Section[] = [
             src: '/assets/moodboard 1 bedroom.jpg',
             alt: 'Bedroom moodboard',
             aspect: 'aspect-[4/3]',
-            colSpan: 'md:col-span-7',
+            colSpan: 'md:col-span-4',
           },
           {
             src: '/assets/living-room-design.jpg',
             alt: 'Living room design',
             aspect: 'aspect-[4/3]',
-            colSpan: 'md:col-span-5',
+            colSpan: 'md:col-span-4',
+          },
+          {
+            src: '/assets/bedroom-interior-render.png',
+            alt: 'Bedroom interior render',
+            aspect: 'aspect-[4/3]',
+            colSpan: 'md:col-span-4',
+          },
+          {
+            src: '/assets/IMG_2013.jpg',
+            alt: "Ru-In's Restaurant — floor plan and material board",
+            aspect: 'aspect-[4/3]',
+            colSpan: 'md:col-span-12',
           },
         ],
       },
@@ -544,14 +597,20 @@ const sections: Section[] = [
             alt: '1st floor plan with furniture',
             caption: '1st Floor Plan',
             aspect: 'aspect-[4/3]',
-            colSpan: 'md:col-span-7',
+            colSpan: 'md:col-span-4',
           },
           {
             src: '/assets/second-floor-plan.jpg',
             alt: '2nd floor plan with furniture',
             caption: '2nd Floor Plan',
             aspect: 'aspect-[3/4]',
-            colSpan: 'md:col-span-5',
+            colSpan: 'md:col-span-4',
+          },
+          {
+            src: '/assets/IMG_5522.jpg',
+            alt: 'Rendered floor plan — bedrooms and master bath',
+            aspect: 'aspect-[4/3]',
+            colSpan: 'md:col-span-4',
           },
         ],
       },
@@ -576,8 +635,12 @@ const sections: Section[] = [
   },
   {
     id: 'sketchup',
-    title: 'SketchUp',
+    title: 'Conference Room Design: SketchUp Rendering',
     blocks: [
+      {
+        type: 'text',
+        body: 'This project presents a 3D visualization of a conference room designed using SketchUp. The space focuses on functionality, layout, and material selection to create a professional and visually balanced environment. Elements such as lighting, furniture arrangement, and wall treatments were carefully considered to enhance both usability and overall aesthetic.',
+      },
       {
         type: 'images',
         images: [
@@ -690,7 +753,7 @@ export function SelectedWorks(_: SelectedWorksProps) {
                           </div>
                         </LightboxTrigger>
                         {img.caption && (
-                          <p className="mt-2 text-[0.8125rem] leading-[1.6] text-[#7A7168]">
+                          <p className="mt-2 text-[0.8125rem] leading-[1.6] text-[#7A7168] whitespace-pre-line">
                             {img.caption}
                           </p>
                         )}

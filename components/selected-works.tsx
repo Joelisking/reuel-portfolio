@@ -80,7 +80,8 @@ const sections: Section[] = [
           {
             src: '/assets/p2-2.jpeg',
             alt: 'Chair sketch',
-            caption: 'Crafting Spaces\nInterior Design & Spatial Planning\nDesigning spaces that balance beauty and function—where every material, proportion, and detail is intentionally considered.',
+            caption:
+              'Crafting Spaces\nInterior Design & Spatial Planning\nDesigning spaces that balance beauty and function—where every material, proportion, and detail is intentionally considered.',
             aspect: 'aspect-[3/4]',
             colSpan: 'md:col-span-4',
           },
@@ -386,7 +387,8 @@ const sections: Section[] = [
           {
             src: '/assets/Jabberwocky.jpeg',
             alt: 'Jabberwocky',
-            caption: 'This illustration interprets Jabberwocky through the combination of text and imagery, exploring storytelling, composition, and color.',
+            caption:
+              'This illustration interprets Jabberwocky through the combination of text and imagery, exploring storytelling, composition, and color.',
             aspect: 'aspect-[3/4]',
             colSpan: 'md:col-span-7',
           },
@@ -600,7 +602,7 @@ const sections: Section[] = [
             colSpan: 'md:col-span-4',
           },
           {
-            src: '/assets/second-floor-plan.jpg',
+            src: '/assets/second-floor-plan.png',
             alt: '2nd floor plan with furniture',
             caption: '2nd Floor Plan',
             aspect: 'aspect-[3/4]',
